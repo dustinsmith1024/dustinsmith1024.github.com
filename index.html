@@ -4,3 +4,13 @@ title: Dustin Smith's Blog
 ---
 
 Welcome to my site!
+
+<section>
+<ul>
+{% for post in site.posts %}
+	<li>
+		<span><a href="{{ post.url }}">{{ post.title }}</a></span>
+	</li>
+{% endfor %}
+</ul>
+</section>
