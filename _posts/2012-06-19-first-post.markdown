@@ -1,6 +1,12 @@
 ---
-layout: default
-title: First Post
+layout: post
+title: New Post
 ---
 
-This is my first post. Hoo-Raw!
+# Jekyll
+
+Moving my stuzz to jekyll.
+
+## Why
+
+## How
