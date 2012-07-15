@@ -2,16 +2,10 @@
 layout: default
 title: Dustin Smith's Blog
 ---
-
-<h2>Welcome to my site!</h2>
-
-<section>
-	<h3>Posts:</h3>
-<ul>
+<div id="posts">
 {% for post in site.posts %}
-	<li>
-		<span><a href="{{ post.url }}">{{ post.title }}</a></span>
-	</li>
+	<div class="post">
+		{{ post.content }}
+	</div>
 {% endfor %}
-</ul>
-</section>
+</div>

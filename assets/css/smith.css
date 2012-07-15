@@ -2,6 +2,14 @@
 .center {
   margin: auto;
 }
+
+img.title {
+	left: 20px;
+	position: relative;
+	border-radius: 4px;
+	width: 970px;
+}
+
 body {
 /*
   background: url("/images/bg-grey.png") repeat scroll 0 0 gray;
@@ -434,6 +442,11 @@ div#nav li:hover {
   }
 
 }
+
+object.pics {
+	margin: 0 150px;
+}
+
 @media screen and (max-width: 350px) {
   div#header h1 {
     font-size: 1.7em;
@@ -441,7 +454,6 @@ div#nav li:hover {
 }
 
 div#body {
-  background-color: background-color: #F8FBFF;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
