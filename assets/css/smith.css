@@ -496,10 +496,26 @@ span.first-letter {
   _padding: 0.25em 0.08em 0.25em 0.00em;
   margin: 0;
 }
+
 div#posts {
   padding: 1px;
   margin: 0px;
 }
+
+aside {
+	float:none;
+}
+
+@media screen and (min-width: 800px) {
+	aside {
+		float: right;
+		width: 20%;
+	}
+	div#posts {
+		width: 75%;
+	}
+}
+
 div#posts .post {
   padding: 1.5em 2.5em;
 }

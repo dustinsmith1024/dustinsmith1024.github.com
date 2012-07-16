@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Janus Install Notes
-categories: devops
+categories: 
+- devops
 ---
  
 <div>

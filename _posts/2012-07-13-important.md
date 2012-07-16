@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Important!
-categories: jekyll
+categories: 
+- css
+- mini
 ---
 
 <div>

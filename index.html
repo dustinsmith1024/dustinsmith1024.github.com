@@ -2,6 +2,17 @@
 layout: default
 title: Dustin Smith's Blog
 ---
+
+<aside class="post">
+<h2>Categories</h2>
+<ul>
+{% for category in site.categories %}
+  <li><a href="#{{ category | first }}">{{ category | first }}</a></li>
+{% endfor %}
+</ul>
+
+</aside>
+
 <div id="posts">
 {% for post in site.posts %}
 	<div class="post">

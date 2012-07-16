@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Domain Switch
-categories: web heroku domains
+categories: 
+- web 
+- heroku 
+- domains
 ---
 
 <div>
