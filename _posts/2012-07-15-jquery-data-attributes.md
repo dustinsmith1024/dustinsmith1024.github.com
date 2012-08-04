@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Mini Post
+title: jQuery Data Attributes
 categories: 
-- jekyll
+- jquery
 - mini
+- commands
 ---
 
 <div>

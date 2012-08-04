@@ -1,0 +1,24 @@
+---
+layout: default
+title: Post Categories
+---
+<div id="posts" class="full">
+<div class="post">
+<h2>Article List by Category:</h2>
+<ul class="categories">
+{% for category in site.categories %}
+  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ol>
+    {% for posts in category %}
+      {% for post in posts %}
+		{% if post.title %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endif %}
+      {% endfor %}
+    {% endfor %}
+    </ol>
+  </li>
+{% endfor %}
+</ul>
+</div>
+</div>

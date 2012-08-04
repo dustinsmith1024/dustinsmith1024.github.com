@@ -3,8 +3,8 @@ layout: post
 title: Domain Switch
 categories: 
 - web 
-- heroku 
-- domains
+- heroku
+- hosting
 ---
 
 <div>

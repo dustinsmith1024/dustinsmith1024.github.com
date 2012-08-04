@@ -505,6 +505,12 @@ div#posts {
 aside {
 	float:none;
 }
+.categories li {
+	list-style: none;
+}
+.categories ol li {
+	list-style: inherit;
+}
 
 @media screen and (min-width: 800px) {
 	aside {
@@ -513,6 +519,9 @@ aside {
 	}
 	div#posts {
 		width: 75%;
+	}
+	div#posts.full {
+		width: 100%;
 	}
 }
 
