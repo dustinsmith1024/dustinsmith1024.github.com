@@ -6,9 +6,9 @@ categories:
 - mini
 ---
 
-<div>
-  <div>
-	<p class="intro"><span class="first-letter">I</span> just finished up some work for a great photographer in Omaha.  Check it out at [Look Portrait](http://lookportrait.com/).
+
+<p class="intro"><span class="first-letter">I</span> just finished up some work for a great photographer in Omaha.  Check it out at [Look Portrait](http://lookportrait.com/).
+</p>
 
 I used a couple of new tools this time around. First was Middleman for making a static site but with the advantages of reusable templates, SASS/LESS, and a suite of other features.
 
@@ -16,6 +16,4 @@ For the grids system I tried out Bourbon Neat.  Neat is a sweet little fluid gri
 
 I'll post some updates soon, been lazy lately/busy with a baby.  [Baby Dillon pics :-)](http://www.flickr.com/photos/dustinsmith1024/sets/72157632235952514/)
 
-<p>{{ page.date | date_to_string }}</p>
-	</div>
-</div>
+{{ page.date | date_to_string }}
