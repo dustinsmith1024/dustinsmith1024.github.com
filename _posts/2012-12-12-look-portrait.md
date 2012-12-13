@@ -1,6 +1,6 @@
 ---
-layout: default
-published: true
+layout: post
+published: false
 ---
 
 # Look Portrait
