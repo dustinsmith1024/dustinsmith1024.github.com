@@ -507,7 +507,14 @@ aside {
 	list-style: inherit;
 }
 
+div#posts .post {
+  padding: 1em 2em;
+}
+
 @media screen and (min-width: 800px) {
+	div#posts .post {
+	  padding: 1.5em 2.5em;
+	}
 	aside {
 		float: right;
 		width: 20%;
@@ -520,9 +527,6 @@ aside {
 	}
 }
 
-div#posts .post {
-  padding: 1.5em 2.5em;
-}
 div#twitter_div ul li{
   padding: 3px;
   padding-left: 10px;
