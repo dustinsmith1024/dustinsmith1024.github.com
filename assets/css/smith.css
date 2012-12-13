@@ -476,7 +476,7 @@ div#body {
   box-shadow: -2px 0px 5px gray;
  */
 }
-p.intro {
+p, p.intro {
   line-height: 1.4em;
   font-size: 1.38em; /* 18px; */
 }
