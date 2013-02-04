@@ -1,8 +1,8 @@
 ---
 layout: post
-published: true
+published: false
 categories: 
-- design
+- responsive design
 - mini
 ---
 
