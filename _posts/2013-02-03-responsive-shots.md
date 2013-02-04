@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 categories: 
 - responsive design
 - mini
