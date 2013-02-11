@@ -11,9 +11,6 @@ img.title {
 }
 
 body {
-/*
-  background: url("/images/bg-grey.png") repeat scroll 0 0 gray;
-*/
   background-color: #333;
   background: url("/assets/images/grey-bg.png") repeat scroll 0 0 #333;
   border-top: 2px solid black;
@@ -26,14 +23,15 @@ body {
   width: 85%; /* 1042px */
   max-width: 960px;
 }
+
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: .9125em;     /* 13px; */
- /* line-height: 18px; */
 }
 .hidden {
   display: none;
 }
+
 div#deactivate {
   background-color: #CCC;
   position: fixed;
@@ -44,6 +42,7 @@ div#deactivate {
   top: 0px;
   left: 0px;
 }
+
 div#popup {
   background-color: #FFF;
   position: fixed;
@@ -64,13 +63,16 @@ p.photo{
   position: relative;
   border: 2px solid #333;
 }
+
 p.food .caption {
   font-size: .8em;
 }
+
 p.photo.food img{
     max-height: 300px;
     max-width: 300px;
 }
+
 p.photo.food a:before {
   background-color: #333;
   content: attr(data-user);
@@ -78,6 +80,7 @@ p.photo.food a:before {
   float: left;
   width: 100%;
 }
+
 p.photo span {
   background-color: #333;
   position: absolute;
@@ -86,32 +89,40 @@ p.photo span {
   width: 175px;
   padding: .2em;
 }
+
 div#clear{
   clear: both;
 }
+
 img {
 }
+
 pre {
   background-color: #eee;
   padding: 10px;
   font-size: .85em; /* 11px; */
 }
+
 a, a:hover, a:visited { 
   background: none;
   color: #3AA6D0;
   text-decoration: none;
+
 }
 div.field, div.actions {
   margin-bottom: 10px;
 }
+
 #notice {
   color: green;
 }
+
 .field_with_errors {
   padding: 2px;
   background-color: red;
   display: table;
 }
+
 #error_explanation {
   width: 50%; /* 450px; */
   border: 2px solid red;
@@ -120,6 +131,7 @@ div.field, div.actions {
   margin-bottom: 20px;
   background-color: #f0f0f0;
 }
+
 #error_explanation h2 {
   text-align: left;
   font-weight: bold;
@@ -130,10 +142,12 @@ div.field, div.actions {
   background-color: #c00;
   color: #fff;
 }
+
 #error_explanation ul li {
   font-size: .75em; /* 12px; */
   list-style: square;
 }
+
 .flash {
   background-color:#3AA6D0;
   color: white;
@@ -142,53 +156,64 @@ div.field, div.actions {
   border-radius: 5px;
   padding: 5px;
 }
+
 div#header {
   color: #3AA6D0;
   line-height: 1.3em;
 }
+
 div#header a, div#header a:hover {
   text-decoration: none;
   color: #C2C5C6;
   background: none;
 }
+
 img.twitter-link {
   height: 18.6px;
   width: 100px;
 }
+
 div#nav ul li a img.twitter-bird {
   filter: 0;
   height: 35px;
   margin: -10px;
   width: 35px;
 }
+
 div#nav ul li a img.email-link {
   filter: 0;
   height: 25px;
   margin: -5px;
   width: 25px;
 }
+
 #photo_list {
   text-align: center;
   padding: 0;
   margin: 0;
 }
+
 ul#photo_list li {
   border: 0px solid gray;
   padding: 10px;
   margin-bottom: 10px;
   list-style-type: none;
 }
+
 ul#photo_list li img {
   max-width: 100%;
   padding: 0;
   border: 3px solid black;
 }
+
 ul#photo_list li p.caption {
   color: black;
 }
+
 a img {
   border: none;
 }
+
 div#header h1{
   font-size: 3.4615em;  /* 55 / 16 */
   margin-bottom: 25px;
@@ -535,15 +560,19 @@ div#twitter_div ul li{
   border: 2px solid #fff;
   border-left: 2px solid #3AA6D0;
 }
+
 div#twitter_div ul li:hover {
   border: 2px solid #3AA6D0;
 }
+
 div#header ul {
   text-align: right;
 }
+
 div#header ul li{
   list-style-type: none;
 }
+
 div#header ul li:hover {
 }
 

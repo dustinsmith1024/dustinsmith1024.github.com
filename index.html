@@ -2,21 +2,25 @@
 layout: default
 title: Dustin Smith's Blog
 ---
-
-<aside class="post">
-<h2>Categories</h2>
-<ul>
-{% for category in site.categories %}
-  <li><a href="/categories.html#{{ category | first }}">{{ category | first }}</a></li>
-{% endfor %}
-</ul>
-
-</aside>
-
-<div id="posts">
-{% for post in site.posts %}
-	<div class="post">
-		{{ post.content }}
-	</div>
+<div class="posts">
+{% for post in paginator.posts %}
+	<div class="post">{{ post.content }}</div>
 {% endfor %}
 </div>
+
+<footer class="paginate post">
+	<span class="all-link"><a href="/all.html">View All Posts</a></span>
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a href="/">Previous</a>
+    {% else %}
+    <a href="/page{{paginator.previous_page}}">Previous</a>
+    {% endif %}
+  {% endif %}
+  <span class="page_number ">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="next ">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</footer>

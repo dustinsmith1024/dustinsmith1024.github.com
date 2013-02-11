@@ -1,0 +1,21 @@
+---
+layout: default
+title: All Post's
+---
+
+<div id="posts">
+	<aside class="post">
+		<h2>Categories</h2>
+		<ul>
+		{% for category in site.categories %}
+		  <li><a href="/categories.html#{{ category | first }}">{{ category | first }}</a></li>
+		{% endfor %}
+		</ul>
+	</aside>
+
+{% for post in site.posts %}
+	<div class="post">
+		{{ post.content }}
+	</div>
+{% endfor %}
+</div>
